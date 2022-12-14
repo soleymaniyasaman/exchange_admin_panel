@@ -1,0 +1,19 @@
+.market_setting_item:last-of-type{
+    margin-right: 3em !important;
+}
+.cryptoSetting label{
+    font-size: 12px;
+    white-space: nowrap;
+}
+.box{ filter: hue-rotate(290deg) }
+
+input[type=checkbox] {
+    transform: scale(1.1);
+    margin: 10px;
+    cursor: pointer;
+  }
+  .verifyButton{
+    border: none;
+    background-color: #293034;
+    color: #10D078;
+}

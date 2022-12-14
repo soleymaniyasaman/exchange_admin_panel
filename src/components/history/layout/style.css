@@ -1,0 +1,62 @@
+/* @import '../../../../styles/colors'; */
+
+.MuiSelect-select.MuiSelect-select{
+    padding-left: 19px ;
+    
+}
+.MuiSelect-icon{
+    right: unset !important;
+    left: 0;
+    color: black !important;
+
+
+}
+.MuiInputBase-input::placeholder{
+    font-size: smaller;
+}
+.MuiInputBase-root{
+    font-size: 14px !important;
+}
+.MuiInputAdornment-positionStart{
+    margin-right: -1px !important;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: green;
+    border-radius: 27px;
+    outline: none;
+}
+
+.nav-pills.red .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: red;
+    border-radius: 27px;
+    outline: none;
+}
+
+.nav-pills {
+    margin-top: -1rem;
+        background-color: black;
+        border-radius: 27px;
+        width: -moz-fit-content;
+        width: fit-content;
+        position: absolute;
+        top: 6.2em;
+        right: 2%;
+        z-index: 10;
+
+}
+.nav-pills .nav-link{
+    padding: 6px;
+}
+.nav-pills a {
+    color: #fff;
+    font-size: 11px;
+    cursor: pointer;
+
+}
+.nav-pills a:hover{
+    color: #fff;
+
+}

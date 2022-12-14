@@ -1,0 +1,45 @@
+.popUpBody{
+    font-family: "Byekan";
+    font-size: 17px;
+    background-color: #293034;
+    border: none;
+    color: #FFFFFF;
+    text-align: end;
+}
+.popUpHeader{
+    background-color: #293034;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+    border: none;
+    .close{
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: none;
+    background-color: inherit;
+    color: #FFFFFF;
+    }
+}
+.popUpFooter{
+    background-color: #293034;
+    border: none;
+    justify-content: flex-start;
+}
+.popUpButton{
+    width: 96px;
+    height: 28px;
+    display: flex;
+    font-size: 13px;
+    background-color: #FFFFFF;
+    color: #10D078;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.popUpButton:hover{
+    background-color: #10D078;
+    color: #FFFFFF;
+}

@@ -1,0 +1,241 @@
+#table {
+  border-collapse: collapse;
+  text-align: center;
+  font-family: inherit;
+  border-collapse: separate;
+  border-spacing: 0px 14px;
+  border: none;
+  direction: rtl;
+}
+#table::-webkit-scrollbar {
+  display: none;
+}
+#table th {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+#table thead {
+  color: #B4B1B1;
+  font: normal normal medium 16px/27px IRANSans(FaNum);
+}
+#table thead :first-child {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+#table thead :last-child {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+#table thead :nth-child(n) {
+  border: none;
+}
+#table tbody {
+  color: #FFFFFF;
+  font: normal normal normal 18px/31px IRANSans(FaNum);
+}
+#table tbody :first-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+#table tbody :last-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+#table tbody :nth-child(n) {
+  border: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.adminPanel_products_productsLists_table_container {
+  background-color: #293034;
+  width: 1575px;
+  height: 164vh;
+  position: relative;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.PriceComponent_tableContainerSingleBrand {
+  position: absolute;
+  width: 1510px;
+  background-color: #293034;
+  top: 69px;
+}
+
+.priceComponent_tableSearchContainer {
+  position: absolute;
+  top: 0;
+  left: 14px;
+  color: #293034;
+}
+
+.authContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.PriceComponent_tableNamePersian {
+  opacity: 0.8;
+  padding: 0;
+  margin: 0;
+}
+
+.PriceComponent_tableRow {
+  background-color: #181C1F;
+}
+
+.adminPanel_products_productsLists_table_pic {
+  height: 30px;
+  border-radius: 0 !important;
+}
+
+.priceComponent_tableBody {
+  font: "BRYekan";
+}
+
+.PriceComponent_tableColorContainer {
+  width: 100%;
+  height: 100%;
+  margin-right: 1.9vw;
+  display: flex;
+}
+.icon {
+  margin: 2px;
+}
+
+.PriceComponent_tablePrice {
+  opacity: 0.6;
+  font-family: "BYekan";
+  text-align: center;
+}
+
+.adminPanel_products_products_productsList_table_icon {
+  font-size: 16px;
+  width: 120px;
+  height: 40px;
+  background-color: #10D078;
+  color: #FFFFFF;
+}
+
+.checkIcon {
+  background-color: #158815;
+  width: 18px;
+  padding: 3px;
+  color: #fff;
+}
+
+.adminPanel_products_productsLists_table_searchBox {
+  border: 1px solid #E1E1E1;
+  width: 314px;
+  height: 40px;
+  border-radius: 5px;
+  background: #F4F5F9 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.adminPanel_products_productsLists_table_searchBox:focus {
+  background: #F4F5F9 0% 0% no-repeat padding-box;
+  box-shadow: none;
+}
+
+.adminPanel_products_productsLists_table_search {
+  width: 100%;
+}
+.adminPanel_products_productsLists_table_search ::placeholder {
+  color: #C9C9C9;
+  font-size: 14px;
+}
+.adminPanel_products_productsLists_table_search .priceComponent_tableSearchBoxImg {
+  position: relative;
+  height: 20px;
+  top: 14px;
+  left: 31px;
+}
+
+.paginationItem {
+  cursor: pointer;
+  width: 39px;
+  height: 39px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin-left: 9px;
+  display: flex;
+  /* top: 1015px; */
+  /* left: 909px; */
+  justify-content: center;
+  align-items: center;
+  border-radius: 15%;
+}
+.paginationItem .paginationButton {
+  color: #293034;
+  text-decoration: none;
+}
+
+.paginationItem:hover {
+  background: #10D078 0% 0% no-repeat padding-box;
+}
+.paginationItem:hover .paginationButton {
+  color: #ffffff;
+}
+
+@media screen and (min-width: 1380px) {
+  .adminPanel_products_productsLists_table_searchBox {
+    width: 16rem;
+  }
+
+  .priceComponent_tableSearchBoxImg {
+    margin-top: -34px;
+    left: 5%;
+  }
+
+  .PriceComponent_tableColor {
+    height: 2rem;
+  }
+}
+@media screen and (max-width: 1380px) {
+  .adminPanel_products_productsLists_table_searchBox {
+    width: 14rem;
+  }
+
+  .priceComponent_tableSearchBoxImg {
+    margin-top: 7px;
+    left: 8%;
+  }
+
+  .PriceComponent_tableColor {
+    height: 1rem;
+  }
+}
+@media screen and (max-width: 1298px) {
+  .priceComponent_tableSearchBoxImg {
+    margin-top: -34px;
+    right: 13rem;
+  }
+}
+@media screen and (min-width: 985px) {
+  #table tbody :nth-child(n) {
+    margin-right: 4%;
+    font-size: 100%;
+  }
+
+  .PriceComponent_tablePrice {
+    font-size: 100%;
+  }
+}
+@media screen and (max-width: 985px) {
+  #table tbody :nth-child(n) {
+    margin-right: 0;
+    font-size: 1.3vw;
+  }
+
+  .PriceComponent_tablePrice {
+    font-size: 1.3vw;
+  }
+}

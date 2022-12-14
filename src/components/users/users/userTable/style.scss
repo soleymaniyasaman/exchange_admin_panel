@@ -1,0 +1,311 @@
+#table {
+    border-collapse: collapse;
+    text-align: center;
+    font-family: inherit;
+    border-collapse: separate;
+    border-spacing: 0px 14px;
+    // background-color:#293034;
+    border: none;
+    direction: rtl;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    th {
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+
+    thead {
+        color: #B4B1B1;
+        font: normal normal medium 16px/27px IRANSans(FaNum);
+
+        :first-child {
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+
+        }
+
+        :last-child {
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
+
+        :nth-child(n) {
+            border: none;
+        }
+
+    }
+
+    tbody {
+        color: #FFFFFF;
+        font: normal normal normal 18px/31px IRANSans(FaNum);
+
+        :first-child {
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+
+        }
+
+        :last-child {
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+
+        :nth-child(n) {
+            border: none;
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+    }
+}
+
+.adminPanel_products_productsLists_table_container {
+    // margin-right: 13px;
+    // margin-top: -61px;
+    background-color: #293034;
+    // width: 1610px;
+    width: 1575px;
+    height: 164vh;
+    position: relative;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.PriceComponent_tableContainerSingleBrand {
+    position: absolute;
+    width: 1510px;
+    background-color: #293034;
+    top: 69px;
+
+}
+
+.priceComponent_tableSearchContainer {
+    position: absolute;
+    top: 0;
+    left: 14px;
+    color: #293034;
+}
+
+.authContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.PriceComponent_tableNamePersian {
+    opacity: 0.8;
+    padding: 0;
+    margin: 0;
+}
+
+.PriceComponent_tableRow {
+    background-color: #181C1F;
+}
+
+// .adminPanel_products_productsLists_table_header{
+//     // height: 10px;
+//     font-size: 11px;
+//     right: 0;
+// }
+.adminPanel_products_productsLists_table_pic {
+    height: 30px;
+    border-radius: 0 !important;
+}
+
+.priceComponent_tableBody {
+    font: "BRYekan";
+
+}
+
+.PriceComponent_tableColorContainer {
+    width: 100%;
+    height: 100%;
+    // position: absolute;
+    margin-right: 1.9vw;
+    display: flex;
+
+    .PriceComponent_tableColor {
+        // width: 2rem;
+        // height: 2rem;
+        // border-radius: 50px;
+
+        // position: absolute;
+        // bottom: 29%;
+    }
+}
+
+.icon {
+    margin: 2px;
+}
+
+.PriceComponent_tablePrice {
+    opacity: 0.6;
+    font-family: "BYekan";
+    // font-size: 16px;
+    text-align: center;
+    // letter-spacing: -4px;
+
+}
+
+.adminPanel_products_products_productsList_table_icon {
+    font-size: 16px;
+    // font: normal normal normal 16px/27px IRANSans(FaNum);
+    width: 120px;
+    height: 40px;
+    background-color: #10D078;
+    color: #FFFFFF;
+}
+
+.checkIcon {
+    background-color: rgb(21, 136, 21);
+    width: 18px;
+    padding: 3px;
+    color: #fff;
+}
+
+.adminPanel_products_productsLists_table_searchBox {
+    // width: 13.6vw;
+    border: 1px solid #E1E1E1;
+    width: 314px;
+    height: 40px;
+    border-radius: 5px;
+    // height: 33px;
+    background: #F4F5F9 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+    &:focus {
+        background: #F4F5F9 0% 0% no-repeat padding-box;
+        box-shadow: none
+    }
+}
+
+.adminPanel_products_productsLists_table_search {
+    width: 100%;
+
+    ::placeholder {
+        color: #C9C9C9;
+        font-size: 14px;
+    }
+
+    .priceComponent_tableSearchBoxImg {
+        position: relative;
+        height: 20px;
+        top: 14px;
+        left: 31px;
+    }
+}
+
+.paginationItem {
+    cursor: pointer;
+    width: 39px;
+    height: 39px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-left: 9px;
+    display: flex;
+    /* top: 1015px; */
+    /* left: 909px; */
+    justify-content: center;
+    align-items: center;
+    border-radius: 15%;
+
+    .paginationButton {
+        color: #293034;
+        text-decoration: none;
+    }
+}
+
+.paginationItem:hover {
+    background: #10D078 0% 0% no-repeat padding-box;
+
+    .paginationButton {
+        color: #ffffff;
+    }
+}
+
+@media screen and (min-width: 1380px) {
+
+    .adminPanel_products_productsLists_table_container {
+        // max-width: 1045px;
+    }
+
+    .adminPanel_products_productsLists_table_searchBox {
+        width: 16rem;
+    }
+
+    .priceComponent_tableSearchBoxImg {
+        margin-top: -34px;
+        left: 5%;
+    }
+
+    .PriceComponent_tableColor {
+        // width: 2rem;
+        height: 2rem;
+    }
+}
+
+@media screen and (max-width: 1380px) {
+    .adminPanel_products_productsLists_table_container {
+        // max-width: 76vw;
+    }
+
+    .adminPanel_products_productsLists_table_searchBox {
+        width: 14rem;
+    }
+
+    .priceComponent_tableSearchBoxImg {
+        margin-top: 7px;
+        left: 8%;
+    }
+
+    .PriceComponent_tableColor {
+        // width: 1rem;
+        height: 1rem;
+    }
+}
+
+@media screen and (max-width: 1298px) {
+    .priceComponent_tableSearchBoxImg {
+        margin-top: -34px;
+        right: 13rem;
+    }
+}
+
+@media screen and (min-width: 985px) {
+    #table tbody :nth-child(n) {
+        margin-right: 4%;
+        font-size: 100%;
+    }
+
+    // .adminPanel_products_products_productsList_table_icon{
+    //     font-size: 136% !important;
+    // }
+    .PriceComponent_tablePrice {
+        font-size: 100%;
+
+    }
+}
+
+@media screen and (max-width: 985px) {
+    #table tbody :nth-child(n) {
+        margin-right: 0;
+        font-size: 1.3vw;
+    }
+
+    // .adminPanel_products_products_productsList_table_icon{
+    //     font-size: 1.8vw !important;
+    // }
+    .PriceComponent_tablePrice {
+        font-size: 1.3vw;
+    }
+}
